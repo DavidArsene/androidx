@@ -34,7 +34,6 @@ builder = "8.6.0-alpha05"
 byteBuddy = "1.14.9"
 asm = "9.7"
 cmake = "3.22.1"
-composeCompilerPlugin = "2.1.0-RC"
 dagger = "2.54"
 dependencyAnalysisGradlePlugin = "2.4.2"
 dexmaker = "2.28.4"
@@ -107,7 +106,6 @@ androidToolsSdkCommon = { module = "com.android.tools:sdk-common", version.ref =
 androidToolsAnalyticsProtos = { module = "com.android.tools.analytics-library:protos", version.ref = "androidLint" }
 androidKotlinMultiplatform = { module = "com.android.kotlin.multiplatform.library:com.android.kotlin.multiplatform.library.gradle.plugin", version.ref = "androidGradlePlugin" }
 androidx-annotation = { module = "androidx.annotation:annotation", version.ref = "annotationVersion" }
-androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidxActivity" }
 autoCommon = { module = "com.google.auto:auto-common", version = "1.2.1" }
 atomicFu = { module = "org.jetbrains.kotlinx:atomicfu", version.ref = "atomicFu" }
 autoServiceAnnotations = { module = "com.google.auto.service:auto-service-annotations", version.ref = "autoService" }

@@ -21,14 +21,7 @@ CAMERA_VIEWFINDER = "1.4.0-alpha13"
 CARDVIEW = "1.1.0-alpha01"
 CAR_APP = "1.8.0-alpha01"
 COLLECTION = "1.5.0-rc01"
-COMPOSE = "1.9.0-alpha01"
-COMPOSE_MATERIAL3 = "1.4.0-alpha09"
-COMPOSE_MATERIAL3_ADAPTIVE = "1.2.0-alpha01"
-COMPOSE_MATERIAL3_COMMON = "1.0.0-alpha01"
-COMPOSE_MATERIAL3_XR = "1.0.0-alpha04"
-COMPOSE_RUNTIME = "1.9.0-alpha01"
 CONSTRAINTLAYOUT = "2.3.0-alpha01"
-CONSTRAINTLAYOUT_COMPOSE = "1.2.0-alpha01"
 CONSTRAINTLAYOUT_CORE = "1.2.0-alpha01"
 CONTENTPAGER = "1.1.0-alpha01"
 COORDINATORLAYOUT = "1.3.0-rc01"
@@ -81,7 +74,6 @@ HEALTH_SERVICES_CLIENT = "1.1.0-alpha05"
 HEIFWRITER = "1.1.0-alpha05"
 HILT = "1.2.0-rc01"
 HILT_NAVIGATION = "1.2.0-rc01"
-HILT_NAVIGATION_COMPOSE = "1.2.0-rc01"
 INK = "1.0.0-alpha03"
 INPUT_MOTIONPREDICTION = "1.0.0-beta05"
 INSPECTION = "1.0.0"
@@ -164,8 +156,6 @@ VERSIONED_PARCELABLE = "1.2.0-rc01"
 VIEWPAGER = "1.1.0-rc01"
 VIEWPAGER2 = "1.2.0-alpha01"
 WEAR = "1.4.0-alpha01"
-WEAR_COMPOSE = "1.5.0-alpha10"
-WEAR_COMPOSE_MATERIAL3 = "1.0.0-alpha33"
 WEAR_CORE = "1.0.0-alpha01"
 WEAR_INPUT = "1.2.0-alpha03"
 WEAR_INPUT_TESTING = "1.2.0-alpha03"
@@ -185,7 +175,6 @@ WINDOW_SIDECAR = "1.0.0-rc01"
 WORK = "2.10.0-rc01"
 XR = "1.0.0-alpha03"
 XR_ARCORE = "1.0.0-alpha03"
-XR_COMPOSE = "1.0.0-alpha03"
 XR_RUNTIME = "1.0.0-alpha03"
 XR_SCENECORE = "1.0.0-alpha03"
 
@@ -212,15 +201,6 @@ CAMERA_VIEWFINDER = { group = "androidx.camera.viewfinder", atomicGroupVersion =
 CARDVIEW = { group = "androidx.cardview", atomicGroupVersion = "versions.CARDVIEW" }
 CAR_APP = { group = "androidx.car.app", atomicGroupVersion = "versions.CAR_APP" }
 COLLECTION = { group = "androidx.collection", atomicGroupVersion = "versions.COLLECTION" }
-COMPOSE_ANIMATION = { group = "androidx.compose.animation", atomicGroupVersion = "versions.COMPOSE" }
-COMPOSE_FOUNDATION = { group = "androidx.compose.foundation", atomicGroupVersion = "versions.COMPOSE" }
-COMPOSE_MATERIAL = { group = "androidx.compose.material" }
-COMPOSE_MATERIAL3 = { group = "androidx.compose.material3", atomicGroupVersion = "versions.COMPOSE_MATERIAL3" }
-COMPOSE_MATERIAL3_ADAPTIVE = { group = "androidx.compose.material3.adaptive", atomicGroupVersion = "versions.COMPOSE_MATERIAL3_ADAPTIVE" }
-COMPOSE_MATERIAL3_ADAPTIVE_NAVIGATION_SUITE = { group = "androidx.compose.material3", atomicGroupVersion = "versions.COMPOSE_MATERIAL3", overrideInclude = [ ":compose:material3:material3-adaptive-navigation-suite" ] }
-COMPOSE_MATERIAL3_XR = { group = "androidx.xr.compose.material3", atomicGroupVersion = "versions.COMPOSE_MATERIAL3_XR" }
-COMPOSE_RUNTIME = { group = "androidx.compose.runtime", atomicGroupVersion = "versions.COMPOSE" }
-COMPOSE_UI = { group = "androidx.compose.ui", atomicGroupVersion = "versions.COMPOSE" }
 CONCURRENT = { group = "androidx.concurrent", atomicGroupVersion = "versions.FUTURES" }
 CONSTRAINTLAYOUT = { group = "androidx.constraintlayout" }
 CONTENTPAGER = { group = "androidx.contentpager", atomicGroupVersion = "versions.CONTENTPAGER" }
@@ -314,7 +294,6 @@ VERSIONEDPARCELABLE = { group = "androidx.versionedparcelable" }
 VIEWPAGER = { group = "androidx.viewpager", atomicGroupVersion = "versions.VIEWPAGER" }
 VIEWPAGER2 = { group = "androidx.viewpager2", atomicGroupVersion = "versions.VIEWPAGER2" }
 WEAR = { group = "androidx.wear" }
-WEAR_COMPOSE = { group = "androidx.wear.compose", atomicGroupVersion = "versions.WEAR_COMPOSE" }
 WEAR_PROTOLAYOUT = { group = "androidx.wear.protolayout", atomicGroupVersion = "versions.WEAR_PROTOLAYOUT" }
 WEAR_TILES = { group = "androidx.wear.tiles", atomicGroupVersion = "versions.WEAR_TILES" }
 WEAR_WATCHFACE = { group = "androidx.wear.watchface", atomicGroupVersion = "versions.WEAR_WATCHFACE" }
@@ -326,6 +305,5 @@ WINDOW_SIDECAR = { group = "androidx.window.sidecar", atomicGroupVersion = "vers
 WORK = { group = "androidx.work", atomicGroupVersion = "versions.WORK" }
 XR = { group = "androidx.xr", atomicGroupVersion = "versions.XR" }
 XR_ARCORE = { group = "androidx.xr.arcore", atomicGroupVersion = "versions.XR_ARCORE" }
-XR_COMPOSE = { group = "androidx.xr.compose", atomicGroupVersion = "versions.XR_COMPOSE" }
 XR_RUNTIME = { group = "androidx.xr.runtime", atomicGroupVersion = "versions.XR_RUNTIME" }
 XR_SCENECORE = { group = "androidx.xr.scenecore", atomicGroupVersion = "versions.XR_SCENECORE" }
