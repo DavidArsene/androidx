@@ -1,7 +1,0 @@
-attr isChildClippingToResizeDividerEnabled
-attr isOverlappingEnabled
-attr isUserResizingEnabled
-attr paneSpacing
-attr userResizeBehavior
-attr userResizingDividerDrawable
-attr userResizingDividerTint
